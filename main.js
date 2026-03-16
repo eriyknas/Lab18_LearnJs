@@ -156,9 +156,15 @@
 // console.log(arr1 === arr2);
 
 
-let x1 = "10";
-let y1 = 2;
-console.log(x1 + y1);
-console.log(x1 - y1);
-console.log(x1 * y1);
-console.log(x1 / y1);
+// let x1 = "10";
+// let y1 = 2;
+// console.log(x1 + y1);
+// console.log(x1 - y1);
+// console.log(x1 * y1);
+// console.log(x1 / y1);
+
+
+let a2 = 2;
+let b2 = 7;
+console.log("Сумма:", a2 + b2);
+console.log("Произведение:", a2 * b2);
