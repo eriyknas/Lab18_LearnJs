@@ -164,7 +164,82 @@
 // console.log(x1 / y1);
 
 
-let a2 = 2;
-let b2 = 7;
-console.log("Сумма:", a2 + b2);
-console.log("Произведение:", a2 * b2);
+// let a2 = 2;
+// let b2 = 7;
+// console.log("Сумма:", a2 + b2);
+// console.log("Произведение:", a2 * b2);
+
+
+let yourAge = 18;
+if (yourAge >= 18) {
+    console.log("Доступ разрешен");
+} else {
+    console.log("Доступ запрещен");
+}
+
+
+let temperature = 19;
+
+if (temperature < 0) {
+    console.log("Холодно");
+} else if (temperature <= 20) {
+    console.log("Прохладно");
+} else {
+    console.log("Тепло");
+}
+
+
+if (isStudent && age < 25) {
+    console.log("Доступна студенческая скидка");
+}
+
+
+let isLoggedIn = true;
+let isAdmin = false;
+
+if (isLoggedIn && isAdmin) {
+    console.log("Полный доступ");
+} else if (isLoggedIn) {
+    console.log("Ограниченный доступ");
+} else {
+    console.log("Доступ запрещён");
+}
+
+
+let a3 = 10;
+let b3 = "10";
+console.log(a3 == b3);
+console.log(a3 === b3);
+
+
+let message = age >= 18 ? "Совершеннолетний" : "Несовершеннолетний";
+console.log(message);
+
+
+let day = 3;
+switch (day) {
+    case 1: console.log("Понедельник"); break;
+    case 2: console.log("Вторник"); break;
+    case 3: console.log("Среда"); break;
+    default: console.log("Неизвестный день");
+}
+
+
+let monthNumber = 7;
+let monthName;
+switch (monthNumber) {
+    case 1: monthName = "Январь"; break;
+    case 2: monthName = "Февраль"; break;
+    case 3: monthName = "Март"; break;
+    case 4: monthName = "Апрель"; break;
+    case 5: monthName = "Май"; break;
+    case 6: monthName = "Июнь"; break;
+    case 7: monthName = "Июль"; break;
+    case 8: monthName = "Август"; break;
+    case 9: monthName = "Сентябрь"; break;
+    case 10: monthName = "Октябрь"; break;
+    case 11: monthName = "Ноябрь"; break;
+    case 12: monthName = "Декабрь"; break;
+    default: monthName = "Неизвестный месяц";
+}
+console.log("Месяц:", monthName);
